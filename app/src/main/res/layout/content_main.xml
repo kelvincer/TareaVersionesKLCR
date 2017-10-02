@@ -23,6 +23,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
+        android:background="@android:color/holo_green_dark"
         android:text="HOLA"
         android:textColor="@android:color/holo_red_dark"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -34,6 +35,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
         android:text="SALUDO"
+        android:background="@android:color/holo_green_dark"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button01" />
@@ -43,7 +45,7 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="20dp"
         android:layout_marginTop="40dp"
-        android:background="@color/azul"
+        android:background="@android:color/holo_green_dark"
         android:text="prueba1"
         app:layout_constraintLeft_toRightOf="@id/button01"
         app:layout_constraintTop_toBottomOf="@+id/textview01" />
